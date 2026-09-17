@@ -1,7 +1,3 @@
-# Título del Proyecto
-
-Aplicación web (entrega de curso): Sistema sencillo de gestión de transacciones y envíos de dinero (HTML/CSS/JS).
-
 ## Descripción
 
 El proyecto es una pequeña aplicación web que simula operaciones básicas de banca/transferencias: inicio de sesión, depósito, envío de dinero y visualización de transacciones. Para el frontend se utiliza el Framework Boostrap, se utiliza el paradigma de programacion orientada aobjetes a través del us de clases, y se realiza persistencia de datos en el almacenamiento del navegador.
