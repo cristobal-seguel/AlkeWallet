@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencias</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script defer type="module" src="./assets/js/index.js"></script>
+
+    <script defer type="module" src="./assets/js/send_money.js"></script>
+
+</head>
+
+<body>
+
+    <!-- INICIO NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">Navegación</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="/index.html">Inicio</a>
+                    <a class="nav-link d-none active" aria-current="page" href="./send-money.html" id="link-send-money">Send Money</a>
+                    <a class="nav-link d-none"  href="./deposit.html" id="link-deposit">Deposit</a>
+                    <a class="nav-link" href="./login.html" id="link-login">Login</a>
+                    <a class="nav-link d-none" id="link-logout">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FIN NAVBAR -->
+
+    <header class="py-3 mt-5">
+        <h1 class="text-center">Realiza tus transfernecias</h1>
+    </header>
+
+
+    <main class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <p>Su saldo es: <span id="output-saldo"></span></p>
+                <form id="form-send-money">
+                    <div class="mb-3">
+                        <label for="send-monto" class="form-label">Enviar dinero:</label>
+                        <input type="number" class="form-control" min="500" value="500" name="monto" id="send-monto" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="send-contacto" class="form-label">Seleccionar contacto:</label>
+                        <select name="send-contacto" id="send-contacto" class="form-control" required>
+                        </select>
+
+                    </div>
+                    <div>
+                        <input type="submit" class="btn btn-primary" value="Transferir">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
