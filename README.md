@@ -1,6 +1,6 @@
 ## Descripción
 
-El proyecto es una pequeña aplicación web que simula operaciones básicas de banca/transferencias: inicio de sesión, depósito, envío de dinero y visualización de transacciones. Para el frontend se utiliza el Framework Boostrap, se utiliza el paradigma de programacion orientada a objetes a través del uso de clases, y se realiza persistencia de datos en el almacenamiento del navegador.
+El proyecto es una pequeña aplicación web que simula operaciones básicas de banca/transferencias: inicio de sesión, depósito, envío de dinero y visualización de transacciones. Para el frontend se utiliza el Framework Boostrap, se utiliza el paradigma de programacion orientada a objetos a través del uso de clases, y se realiza persistencia de datos en el almacenamiento del navegador.
 
 
 ## Estructura del proyecto
