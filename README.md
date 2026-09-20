@@ -1,6 +1,6 @@
 ## Descripción
 
-El proyecto es una pequeña aplicación web que simula operaciones básicas de banca/transferencias: inicio de sesión, depósito, envío de dinero y visualización de transacciones. Para el frontend se utiliza el Framework Boostrap, se utiliza el paradigma de programacion orientada aobjetes a través del us de clases, y se realiza persistencia de datos en el almacenamiento del navegador.
+El proyecto es una pequeña aplicación web que simula operaciones básicas de banca/transferencias: inicio de sesión, depósito, envío de dinero y visualización de transacciones. Para el frontend se utiliza el Framework Boostrap, se utiliza el paradigma de programacion orientada a objetes a través del uso de clases, y se realiza persistencia de datos en el almacenamiento del navegador.
 
 
 ## Estructura del proyecto
@@ -34,11 +34,3 @@ El proyecto es una pequeña aplicación web que simula operaciones básicas de b
 ## Datos del autor (rellenar)
 
 - Nombre: Cristobal Seguel
-
-## Repositorio / Enlace a GitHub
-
-- URL: [Repositorio del proyecto](https://github.com/NelsonRamirezC/054-3-g2-abp-m2)
-
-## Observaciones finales
-
-Este proyecto es una entrega académica destinada a demostrar conocimientos básicos de desarrollo web del lado del cliente. Para ampliaciones futuras se sugiere integrar un backend para persistencia, autenticación real y manejo seguro de transacciones.
